@@ -1,0 +1,198 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    width: 65px;
+    height: 55px;
+    padding-left: 20%;
+}
+
+h1 {
+    padding-right: 20px;
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Shrikhand', serif;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Shrikhand', serif;
+}
+
+h3 {
+    font-size: large;
+    color: rgb(220, 57, 57);
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Shrikhand', serif;
+}
+
+.subtitlu {
+    color: black;
+}
+
+.introduction {
+    text-align: center;
+}
+
+.card-group {
+    border-style: none;
+}
+
+.text-center {
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.chenar-card {
+    border: none;
+}
+
+.inceput {
+    padding-left: 20px;
+}
+
+.objectives1 {
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    border: 0.8px solid rgb(174, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+tbody tr:hover {
+    background-color: rgba(209, 8, 8, 0.817);
+  }
+
+.harta {
+    padding-left: 15px;
+}
+
+.contact-section {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.subtitlu-harta, .program {
+    text-align: center;
+}
+
+container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-container {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    max-width: 400px;
+    width: 100%;
+}
+
+.icon-box {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+.icon-box img {
+    width: 60px;
+    height: auto;
+}
+
+.icon-box:hover {
+    transform: scale(1.5);
+}
+
+.footer {
+    background: linear-gradient(to right, #891a1a, #c20f0f);
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.subtitlu-footer {
+    text-align: center;
+}
+
+.img-footer {
+    width: 75px;
+    height: 80px;
+    margin-left: 150px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .section {
+    margin-bottom: 20px;
+}
+
+.footer .newsletter input {
+    width: 70%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.footer .newsletter button {
+    align-self: center;
+    padding: 8px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    color: rgb(186, 7, 7);
+    cursor: pointer;
+}
+
+.footer .newsletter .centered-button, .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .newsletter button:hover {
+    background-color: #960000;
+    color: #fff;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 20px;
+}
