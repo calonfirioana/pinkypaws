@@ -73,7 +73,6 @@ tbody tr:hover {
     background-color: rgba(209, 8, 8, 0.817);
   }
 
-    padding-left: 15px;
 .contact-section {
     max-width: 650px;
     margin: 20px auto;
@@ -132,6 +131,11 @@ container {
 
 .icon-box:hover {
     transform: scale(1.5);
+}
+
+.harta {
+    width: 100%; 
+    height: 450px;
 }
 
 .footer {
