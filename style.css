@@ -133,9 +133,21 @@ container {
     transform: scale(1.5);
 }
 
+.harta-container {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
 .harta {
-    width: 100%; 
+    width: 100%;
     height: 450px;
+}
+
+
+@media (max-width: 768px) {
+    .harta {
+        height: 300px;
+    }
 }
 
 .footer {
